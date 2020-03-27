@@ -16,7 +16,7 @@ p, h1, h2, h3, ul, ol {
     width: 900px;
     margin-right: auto;
     margin-left: auto;
-    background: url(http://placehold.it/30x20) no-repeat;
+    /* background: url(http://placehold.it/30x20) no-repeat; */
     padding-top: 225px;
     padding-left: 40px;
 }
