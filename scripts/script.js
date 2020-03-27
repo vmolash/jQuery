@@ -4,9 +4,13 @@
 // });
 
 // shorhand - literal object
+// $(document).ready(function() {
+//     $('ul.numbers li:even').css({
+//         'background-color': '#999',
+//         'color': 'green'
+//     });
+// }); // добавляет inline css style
+
 $(document).ready(function() {
-    $('ul.numbers li:even').css({
-        'background-color': '#999',
-        'color': 'green'
-    });
+    $('ul.numbers li:even').addClass('striped');
 });
