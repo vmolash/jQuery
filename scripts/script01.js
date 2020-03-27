@@ -3,5 +3,6 @@ $(document).ready(function() {
 
     $('.readMore a').click(function() {
         $('.hideBox').show();
+        $(this).hide();
     });
 });
