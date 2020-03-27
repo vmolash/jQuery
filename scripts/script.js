@@ -11,6 +11,11 @@
 //     });
 // }); // добавляет inline css style
 
+// $(document).ready(function() {
+//     $('ul.numbers li:even').addClass('striped');
+// });
+
+// multiple class and elements
 $(document).ready(function() {
-    $('ul.numbers li:even').addClass('striped');
+        $('ul.numbers li:even, ul.colors li:odd').addClass('striped underline');
 });
